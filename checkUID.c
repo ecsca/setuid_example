@@ -8,6 +8,5 @@ static uid_t euid, ruid;
 
 int main(void)
 {
-    ruid = getuid();
-    printf("%d\n", ruid);
+    printf("%d\n", getuid());
 }
